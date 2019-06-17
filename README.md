@@ -2,6 +2,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+* Make sure npm version should be 5.2+ and higher.
+```
+npx create-react-app client
+```
+* Open `client/src/index.js` and remove following lines:
+```
+import registerServiceWorker from './registerServiceWorker';
+registerServiceWorker();
+```
+* Start your project using `npm start` OR `yarn --cwd client start`
+* Open ` http://localhost:3000/` in your browser.
+
+
 In the project directory, you can run:
 
 ### `npm start`
